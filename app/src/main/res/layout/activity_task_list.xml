@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.TaskListActivity"
+    android:background="#E1F5FE">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Tasks"
+        android:textSize="30sp"
+        android:padding="20dp"
+        android:textColor="#FF5722"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewNoTasks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There are no tasks yet"
+        android:textSize="24sp"
+        android:textColor="#FF5722"
+        android:layout_centerInParent="true"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:paddingTop="90dp"
+        android:id="@+id/recyclerViewTasks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_task" />
+</RelativeLayout>
