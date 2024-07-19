@@ -2,17 +2,6 @@
 
 KidApp is a mobile application designed for kids, connected to the KinderKid application. It allows children to view their personal information, receive notifications from their parents, and manage tasks assigned to them. Both applications run on the same server and share the same database, ensuring seamless integration and data consistency.
 
-## Table of Contents
-1. [Introduction](#Introduction)
-2. [Features](#features)
-3. [Installation](#Installation)
-4. [Configuration](#Configuration)
-6. [Usage](#usage)
-7. [API Integration](#API-Integration)
-8. [Permissions](#Permissions)
-9. [Screenshots](#Screenshots)
-10. [Video Demonstration](#Video-Demonstration)
-
 ## Introduction
 
 KidApp is developed to provide children with an engaging and secure platform to manage their daily tasks and view their personal information. The application ensures that children can stay connected with their parents through notifications and tasks assigned by their parents. It is designed with a user-friendly interface that is easy for kids to navigate. Parents manage the initial setup and input of all necessary information, ensuring that the child’s profile is accurate and up-to-date. KidApp helps in fostering a sense of responsibility in children by allowing them to manage their tasks efficiently.
