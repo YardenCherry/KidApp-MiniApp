@@ -17,6 +17,8 @@ KidApp is a mobile application designed for kids, connected to the KinderKid app
 
 KidApp is developed to provide children with an engaging and secure platform to manage their daily tasks and view their personal information. The application ensures that children can stay connected with their parents through notifications and tasks assigned by their parents. It is designed with a user-friendly interface that is easy for kids to navigate. Parents manage the initial setup and input of all necessary information, ensuring that the child’s profile is accurate and up-to-date. KidApp helps in fostering a sense of responsibility in children by allowing them to manage their tasks efficiently.
 
+#### The application is being integrated to the server FamilyCare360 : https://github.com/YardenCherry/FamilyCare360.git
+
 ## Features
 
 - **Kid Profile**: Children can view their profile information, including their profile picture, birth date, and phone number. All information about the child is entered by the parent.
@@ -27,7 +29,7 @@ KidApp is developed to provide children with an engaging and secure platform to 
 
 1. Clone the repository:
 ```bash
-git clone (https://github.com/YardenCherry/KidApp-MiniApp.git)
+git clone https://github.com/Roei2606/KidApp.git
 ```
 2. Open the project in Android Studio.
 3. Ensure you have the necessary SDKs and dependencies installed.
